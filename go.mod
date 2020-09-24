@@ -1,13 +1,12 @@
 module github.com/wercker/stern
 
-go 1.12
+go 1.14
 
 require (
 	github.com/fatih/color v0.0.0-20180516100307-2d684516a886
 	github.com/googleapis/gnostic v0.3.1 // indirect
 	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/jessevdk/go-flags v1.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747
