@@ -5,7 +5,7 @@ before:
     - go mod download
 builds:
 - id: stern
-  main: ./main
+  main: ./main.go
   binary: stern
   env:
   - CGO_ENABLED=0
